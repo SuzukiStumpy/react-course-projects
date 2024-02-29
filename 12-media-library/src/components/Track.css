@@ -1,0 +1,25 @@
+.track-list {
+  min-height: 100%;
+}
+
+.track {
+  width: 100%;
+  display: flex;
+}
+.details {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.trackName {
+  text-align: left;
+  margin-right: auto;
+  margin-left: 10%;
+}
+
+.trackLength {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 10%;
+}

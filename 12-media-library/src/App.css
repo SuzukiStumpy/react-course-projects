@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  max-width: min(80%, 1024px);
+  min-width: max(80%, 1024px);
+  margin: auto;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: darkslateblue;
+  font-variant: small-caps;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  min-height: 100%;
+}
+
+.album-list,
+.track-list {
+  border-radius: 2rem;
+  background-color: darkslateblue;
+  margin-bottom: 3rem;
+}
